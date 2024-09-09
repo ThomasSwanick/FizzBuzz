@@ -6,8 +6,8 @@ class FizzBuzz {
     public static void main(String[] args) {
 
         int i = 0;
-        int max = 100;
-        while (i < max) {
+        int maximum = 100;
+        while (i < maximum) {
             i = doFizzBuzz(i);
         }
     }
