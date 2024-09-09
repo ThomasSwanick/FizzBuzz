@@ -6,8 +6,8 @@ class FizzBuzz {
     public static void main(String[] args) {
 
         int i = 0;
-        int limit = 100;
-        while (i < limit) {
+        int max = 100;
+        while (i < max) {
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
             boolean divisibleBy5 = i % 5 == 0;
